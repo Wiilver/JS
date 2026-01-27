@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Botones</title>
+        <link rel="icon" href="/imagenes/logo.png" type="image/png">
+    </head>
+    <body>
+        <a>
+            <button onclick="cambiar_texto()" style = "font-size: 25; background-color: yellow; color:black; border-radius: 25px;">Boton</button>
+        </a>
+        <p id = "Texto">
+            Texto que definitivamente no va a cambiar cuando aprietes el boton
+        </p>
+    </body>
+    <!--Cosa chistosa, es la primera cosa de JS que hago-->
+    <script>
+        function cambiar_texto()
+        {
+            document.getElementById("Texto").innerHTML = "NOPUEDESER";
+        }
+    </script>
+</html>

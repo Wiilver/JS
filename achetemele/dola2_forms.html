@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Formulario
+        </title>
+        <link rel = "icon" href="/imagenes/logo.png" type ="image/png">
+    </head>
+    <body>
+            <h1><div align = "center" style="background-color: cadetblue; border: solid;" ><i>
+                Realmente esto es solo para poner todos los controles que tienen estas cosas
+            </i></div></h1>
+            <br>
+            <h3><div style="background-color: gray;">
+                Formulario
+            </div></h3>
+            <br>
+            <form action = "index.php" method="post" enctype="multipart/form-data">
+                
+                <label for="usuario">Ingrese su usuario :</label>
+                <input type = "text" id = "usuario" required minlength="5" maxlength="15"><br>
+
+                <label for ="contra">Ingrese su contraseña :</label>
+                <input type = "password" id = "contra" required minlength="5"><br>
+
+                <label for = "correo">Ingrese su correo electronico :</label>
+                <input type = "email" id = "correo required" required><br>
+
+                <label for ="num">Ingrese su numero de telefono :</label>
+                <input type = "tel" id = "num" pattern="[0-9]{10}" maxlength="10" ><br>
+
+                <label for = "fecha">Seleccione su fecha de nacimiento:</label>
+                <input type = "date" id = "fecha"><br><br>
+
+                <label for = "cant">Seleccione un numero:</label>
+                <input type = "number" id = "cant" min = "0" max = "99" value="0"><br><br>
+
+                <label for = "prono">Seleccione sus pronombres:</label><br>
+                
+                <label for = "el">El</label>
+                <input type = "radio" id = "el" value="el" name = "prono">
+                
+                <label for = "ella">Ella</label>
+                <input type = "radio" id = "ella" value="ella" name = "prono">
+
+                <label for = "ellos">Ellos</label>
+                <input type = "radio" id = "ellos" value="ellos" name = "prono"><br><br>
+
+                <label for = "pago">Seleccione su medio de pago</label>
+                <select id = "pago">
+                    <option>...</option>
+                    <option value = "visa">Visa</option>
+                    <option value = "mastercard">Mastercard</option>
+                    <option value = "regalo">Tarjeta de regalo</option>
+                </select><br>
+
+                <label for ="susc">¿Desea suscribirse a nuestro servicio? :</label>
+                <input type="checkbox" id ="susc"><br><br>
+
+                <label for = "arch">Seleccione su archivo :</label>
+                <input type = "file" id = "arch" accept="image/png, image/jpeg"><br><br>
+
+                <label for="comentario">Comentarios/Sugerencias</label><br>
+                <textarea id="comentario" rows="3" cols="33"></textarea><br>
+
+                <br>
+                <input type="reset">
+                <input type = "submit">
+
+            </form>
+    </body>
+</html>
