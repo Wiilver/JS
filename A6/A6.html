@@ -14,23 +14,24 @@
     </header>
     <body>
         <main>
-            <button id = "num" >1</button>
+            <br>
+            <p id = "dado">Caras de tu dado : 6</p>
+            <button id = "num" >12</button>
             <button id = "dimensiones" onclick=cambiardado()>Cambiar Dado</button>
             <button id = "tirar" onclick=lanzardado()>Lanzar Dado</button>
             
-            <p id = "dado">D6</p>
         </main>
         <br>
         <div id="dados">
-            <img id = "d100" src="/imagenes/d100.png" width="40" title = "d100">
-            <img id = "d20" src="/imagenes/d20.png" width="40" title = "d20">
-            <img id = "d12" src="/imagenes/d12.png" width="40" title = "d12">
-            <img id = "d10" src="/imagenes/d10.png" width="40" title = "d10">
+            <img id = "d100" src="/imagenes/d100.png" width="40" title = "d100" onclick = d100()>
+            <img id = "d20" src="/imagenes/d20.png" width="40" title = "d20" onclick = d20()>
+            <img id = "d12" src="/imagenes/d12.png" width="40" title = "d12" onclick = d12()>
+            <img id = "d10" src="/imagenes/d10.png" width="40" title = "d10" onclick = d10()>
             <br><hr size = "2px" color = "black">
-            <img id = "d8" src="/imagenes/D8.png" width="40" title = "d8">
-            <img id = "d6" src="/imagenes/d6.png" width="40" title = "d6">
-            <img id = "d4" src="/imagenes/d4.png" width="40" title = "d4">
-            <img id = "d2" src="/imagenes/moneda.png" width="40" title = "d2">
+            <img id = "d8" src="/imagenes/D8.png" width="40" title = "d8" onclick = d8()>
+            <img id = "d6" src="/imagenes/d6.png" width="40" title = "d6" onclick = d6()>
+            <img id = "d4" src="/imagenes/d4.png" width="40" title = "d4" onclick = d4()>
+            <img id = "d2" src="/imagenes/moneda.png" width="40" title = "d2" onclick = d2()>
         </div>
         <br>
     </body>
