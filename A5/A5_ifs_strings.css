@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+}
+main{
+    text-align: left;
+    background-color: rgb(107, 202, 131);
+    outline-style:solid;
+    visibility:hidden;
+}

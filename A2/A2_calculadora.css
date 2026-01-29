@@ -6,6 +6,7 @@
     border: "rigid";
     border-width: 5px;
     margin: -2px;
+    
 }
 #mas, #igual{
     background-color:rgb(245, 122, 122);
@@ -20,4 +21,8 @@
     height: 25px;
     width: 230px;
     font-size: 25px;
+}
+
+body{
+    text-align: center;
 }

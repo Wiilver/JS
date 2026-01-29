@@ -1,0 +1,18 @@
+#num{
+    font-family: Verdana;
+    font-size: 120px;
+}
+
+#menos, #mas{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color:gold;
+    height: 50px;
+}
+
+#res{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: gainsboro;
+    height: 50px;
+}

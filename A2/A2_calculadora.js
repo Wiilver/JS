@@ -52,15 +52,16 @@ function igual()
     let res = 0;
     let str = "";
     let cadena = document.getElementById("res").value;
-    for(i = 0; i < cadena.size(); i++)
+    for(i = 0; i < cadena.length; i++)
     {
-        if (cadena[i]!='+') str+=cadena[i];
+        if (cadena.charAt(i) !='+') str+=cadena.charAt(i);
         else 
         {
-            num = Number(cadena);
+            num = Number(str);
             res += num;
+            str = "";
         }
     }
-    str = String(res);
-    document.getElementById("res").value = str;
+    res += Number(str)
+    document.getElementById("res").value = res;
 }
