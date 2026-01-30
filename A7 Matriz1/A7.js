@@ -28,11 +28,6 @@ function inicializar_matriz(){
     }
 }
 
-function ver_matriz(){
-    for(let i = 0; i < 3; i++)
-        for(let j = 0; j < 3; j++) console.log(document.getElementById("tabla").rows[i].cells[j].textContent);
-}
-
 function intercambiar(){
     let linea1, linea2;
 
@@ -188,10 +183,37 @@ function mult_div(event){
 }
 
 function determinante(){
+    let det = 0;
+    let cont = 0;
+    let mat = [0,0,0,0];
+    var tabla = document.getElementById("tabla");
+    console.log(tabla.rows[1].cells[0].textContent);
     for(let i = 0; i < 3; i++)
     {
-
+        if(i!=0)
+        {
+            mat[cont] = Number(tabla.rows[1].cells[0].textContent);
+            mat[cont+2] = Number(tabla.rows[2].cells[0].textContent);
+            cont += 1;
+        }
+        if(i!=1)
+        {
+            mat[cont] = Number(tabla.rows[1].cells[1].textContent);
+            mat[cont+2] = Number(tabla.rows[2].cells[1].textContent);
+            cont += 1;
+        }
+        if(i!=2)
+        {
+            mat[cont] = Number(tabla.rows[1].cells[2].textContent);
+            mat[cont+2] = Number(tabla.rows[2].cells[2].textContent);
+            cont += 1;
+        }
+        if(i == 1) det -= (mat[0]*mat[3]-mat[1]*mat[2])*Number(tabla.rows[0].cells[i].textContent);
+        else det += (mat[0]*mat[3]-mat[1]*mat[2])*Number(tabla.rows[0].cells[i].textContent);
+        console.log(det);
+        cont = 0;
     }
+    window.alert(`El determinante de tu matriz es ${det}`);
 }
 
 function presiono(event){
