@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(214, 93, 93);
+    margin:auto;
+}
+
+table, th, tr{
+    margin: auto;
+    background-color: rgba(231, 231, 231);
+    font-size: 40px;
+    border:1px solid black;    
+    outline: solid black 1px;
+    height: 75px;
+}
+
+#atras{
+    padding: 40px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(177, 78, 78);
+}
+
+#sub{
+    font-size: 20px;
+}
+
+th{
+    min-width:75px;
+}
+
+#botones{
+    background-color: rgb(129, 55, 12);
+    width: 700px;
+    height: 50px;
+    margin:auto;
+    outline: solid black 2px;
+}
+
+#vaciar, #inicializar, #intercambiar, #determinante{
+    background-color: rgb(201, 135, 35);
+    position: relative;
+    top:13px;
+    margin: 3px;
+    border:0px;
+}
+
+#aritmetica{
+    background-color: rgb(32, 110, 74);
+    width: 700px;
+    height: 50px;
+    margin:auto;
+    outline: solid black 2px;
+}
+
+#sumar, #restar, #multiplicar, #dividir{
+    background-color: rgb(63, 172, 73);
+    position: relative;
+    top:13px;
+    margin: 3px;
+    border:0px;
+}
+
+#fin{
+    background-color: rgb(206, 206, 206);
+    width: 700px;
+    height: 50px;
+    margin: auto;
+    outline: solid black 2px;
+    position: relative;
+}
+
+#input, #label, #aceptar{
+    position: relative;
+    top:13px;
+
+}
+
+header{
+    background-color: rgb(250, 128, 230);
+    padding-top: 5px;
+}

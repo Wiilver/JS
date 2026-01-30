@@ -1,0 +1,19 @@
+body{
+   background-color: rgb(8, 6, 26);
+   text-align: center;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+   background-color: rgb(235, 217, 54);
+   border-radius: 25px;
+}
+#wiliesgei{
+   color:rgb(201, 198, 156);
+   background-color:rgb(14, 27, 87);
+   min-width: 300px;
+   min-height: 300px;
+   max-width: 300px;
+   outline: solid 3px;
+   float: left;
+   margin-left: 25px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Esto es mas que nada JS</title>
+        <link rel = "icon" href="/imagenes/logo.png">
+        <link rel = "stylesheet" href="A7.css">
+    </head>
+    <body>
+        <header>
+            <h1>Manejo, solucion y visualizacion de matrices 3x3</h1>
+            <hr size="3px" color="black">
+        </header>
+        <body>
+            <div id ="sub">
+                <pre><mark style="background-color: rgb(139, 191, 236);"> Para cambiar un valor en especifico de la matriz, presione el elemento </mark></pre>
+            </div>
+            <div id = "atras">
+                <table id = "tabla" >
+                    <tr>
+                        <th id="1" onclick=presiono(event)></th>
+                        <th id="2" onclick=presiono(event)></th>
+                        <th id="3" onclick=presiono(event)></th>
+                    </tr>
+                    <tr>
+                        <th id="4" onclick=presiono(event)></th>
+                        <th id="5" onclick=presiono(event)></th>
+                        <th id="6" onclick=presiono(event)></th>
+                    </tr>
+                    <tr>
+                        <th id="7" onclick=presiono(event)></th>
+                        <th id="8" onclick=presiono(event)></th>
+                        <th id="9" onclick=presiono(event)></th>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div id = "botones">
+                <button id="vaciar" onclick = vaciar_matriz()>Vaciar matriz</button>
+                <button id="inicializar" onclick= inicializar_matriz()>Inicializar la matriz</button>
+                <button id="intercambiar" onclick = intercambiar()>Intercambiar filas de la matriz</button>
+                <button id="determinante">Encontrar determinante de la matriz</button>
+            </div>
+            <br>
+            <div id = "aritmetica">
+                <button id="sumar" onclick = sumar_restar(event)>Sumar filas</button>
+                <button id="restar" onclick = sumar_restar(event)>Restar filas</button>
+                <button id="dividir" onclick = mult_div(event)>Dividir fila</button>
+                <button id="multiplicar" onclick = mult_div(event)>Multiplicar fila</button>
+            </div>
+            <br>
+            <div id = "fin">
+                <label for ="input" id = "label">Introduzca el valor que quiera darle al elemento # :</label>
+                <input id = "input">
+                <button id = "aceptar" onclick=cambio_elemento()>Aceptar</button>
+            </div>
+        </body>
+        <script src="A7.js"></script>
+    </body>
+</html>
