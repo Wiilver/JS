@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="vertical">
+        <div class="contenedor" id = "cont_hor">
+            <div class="tlo_lista">Todas las notas:</div>
+            <input id ="btn_filtro"    type="button" value="Filtro">
+            <input id ="input_buscar"  type="text"   placeholder="Buscar..." autocomplete="off">
+            <input id ="btn_reiniciar" type="button" value="reiniciar">
+            <hr>
+            <ul id="listaNotas"></ul>
+        </div>
+    </div>
+    <div class="horizontal">
+        <div class="contenedor">
+            <h2>Notas</h2>
+            <input id="crear"   type="button" value="Crear una nota">
+            <input id="ordenar" type="button" value="Ordenar todas las notas">
+            <input id="limpiar" type="button" value="Borrar todas las notas">
+        </div>
+    </div>
+    <div class="contenedor" id = "contenedor_notas"></div>
+    <script src="index.js"></script>
+</body>
+</html>

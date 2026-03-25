@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(235, 228, 140);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.Creacion, .Combate, .Edicion{
+    height: 80vmax;
+    width: 28vmax;
+    float: left;
+    margin: 2vmin;
+    outline: solid black 1px;
+    border-radius: 10px;
+}
+
+.Contenedor_Interno{
+    margin:10px;
+}
+
+.PJ_Titulo, .VS_Titulo, .ED_Titulo{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    outline: solid black 1px;
+}
+
+
+.Creacion{
+    background-color: rgb(144, 171, 228);
+}
+
+.Combate{
+    background-color: rgb(216, 172, 105);
+}
+.Edicion{
+    background-color: rgb(148, 219, 148);
+}
+
+
+input{
+    float: right;
+}
+
+.PJ_Titulo{
+    background-color: rgb(88, 113, 255);
+}
+.VS_Titulo{
+    background-color: rgb(255, 177, 104);
+}
+.ED_Titulo{
+    background-color: rgb(87, 167, 50);
+}
+
+.PJ_Salud, .PJ_Daño, .PJ_Velocidad{
+    width: 6vmax;
+}
+
+.PJ_Nombre{
+    width: 60%;
+}
+
+.PJ_Tipo{
+    width: 10vmax;
+    float: right;
+}

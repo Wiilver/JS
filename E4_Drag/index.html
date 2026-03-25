@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muy Original</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="Inputs" class="Inputs">
+        <input class="Input"   id ="txt"     type="text" placeholder="Introduzca el nombre de la tarea">
+        <input class="Aceptar" id ="aceptar" type="button" value="Aceptar">
+        <input class="Limpiar" id ="limpiar" type="button" value="Limpiar">
+    </div>
+    <div class="Contenedor">
+        <table class="Tabla" id ="tabla">
+            <thead class="Encabezados">
+                <th class="Urgente"   >Urgente</th>
+                <th class="Haciendo"  >Haciendo</th>
+                <th class="Terminando">Terminando</th>
+                <th class="Terminado" >Terminado</th>
+            </thead>
+            <tbody id = "cuerpo">
+                <tr class="Fila">
+                    <td class="Espacio" id="esp_urgente">
+                        <div id ="tarea" class="Tarea" draggable="true">Tarea</div>
+                    </td>
+                    <td class="Espacio" id="esp_haciendo"></td>
+                    <td class="Espacio" id="esp_terminando"></td>
+                    <td class="Espacio" id="esp_terminado"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

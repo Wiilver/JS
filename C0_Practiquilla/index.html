@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Practica</title>
+</head>
+<body>
+    <div class = "Creacion">
+        <div class = "Contenedor_Interno">
+            <p class="PJ_Titulo">
+                Crear Personaje
+            </p>
+            <label for = "PJ_Nombre">Nombre :</label>
+            <input maxlength="30" id = "PJ_Nombre" class = "PJ_Nombre">
+            <br>
+            <label for = "PJ_Salud">Salud :</label>
+            <input value = "0" max = "10" min = "0" type="number" id = "PJ_Salud" class = "PJ_Salud">
+            <br>
+            <label for = "PJ_Daño">Daño :</label>
+            <input value = "0" max = "10" min = "0" type="number" id = "PJ_Daño" class = "PJ_Daño">
+            <br>
+            <label for = "PJ_Velocidad">Velocidad :</label>
+            <input value = "0" max = "10" min = "0" type="number" id = "PJ_Velocidad" class = "PJ_Velocidad">
+            <br>
+            <label for = "PJ_Tipo1">Tipo Principal :</label>
+            <select id = "PJ_Tipo1" class="PJ_Tipo">
+                <option value="...">...</option>
+                <option value="Fuego">Fuego</option>
+                <option value="Agua">Agua</option>
+                <option value="Tierra">Tierra</option>
+                <option value="Aire">Aire</option>
+                <option value="Luz">Luz</option>
+                <option value="Oscuridad">Oscuridad</option>
+                <option value="Metal">Metal</option>
+                <option value="Hielo">Hielo</option>
+                <option value="Electricidad">Electricidad</option>
+                <option value="Acido">Acido</option>
+            </select>
+            <br>
+            <label for = "PJ_Tipo2">Tipo Secundario :</label>
+            <select id = "PJ_Tipo2" class="PJ_Tipo">
+                <option value="...">...</option>
+                <option value="Fuego">Fuego</option>
+                <option value="Agua">Agua</option>
+                <option value="Tierra">Tierra</option>
+                <option value="Aire">Aire</option>
+                <option value="Luz">Luz</option>
+                <option value="Oscuridad">Oscuridad</option>
+                <option value="Metal">Metal</option>
+                <option value="Hielo">Hielo</option>
+                <option value="Electricidad">Electricidad</option>
+                <option value="Acido">Acido</option>
+            </select>
+            <br><br>
+            <button onclick=agregar()>Agregar</button>
+        </div>
+    </div>
+    <div class = "Combate">
+        <div class="Contenedor_Interno">
+
+            <p class="VS_Titulo">
+                Peleacion
+            </p>
+        </div>
+    </div>
+    <div class="Edicion">
+        <div class="Contenedor_Interno">
+            <p class="ED_Titulo">
+                Editar lista de personajes
+            </p>
+            <select id = "ED_Personajes">
+                <option>...</option>
+            </select>
+            <br>
+            <button>Seleccionar</button>
+            <button>Editar</button>
+            <button>Eliminar</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

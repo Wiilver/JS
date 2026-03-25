@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(99, 151, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Principal{
+    background-color: rgb(20, 73, 52);
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+    outline: double black 5px;
+}
+
+.Input{
+    width: 95%;
+    border-radius: 5px;
+    margin:5px;
+    font-size: 20px;
+}
+
+.Crear, .Limpiar{
+    font-size: 15px;
+}
+
+.Crear{
+    width: 65%;
+    margin-top: 5px;
+    background-color: rgb(105, 203, 143);
+}
+.Limpiar{
+    width: 30%;
+    background-color: rgb(157, 169, 159);
+}
+
+.Anillo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-content: center;
+    background: conic-gradient(
+        from 215deg,
+        rgb(146, 55, 78) 292deg,
+        lightgray 0
+    );
+    margin-bottom: 20px;
+}
+
+.Circulo{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    align-content: center;
+    position: relative;
+}
+
+.Tarea{
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    width: fit-content;
+    border-radius: 10px;
+    outline: solid black 1px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+    display: inline-block;
+    margin:10px;
+
+}
+
+.Texto{
+    text-align: center;
+    height: 225px;
+    align-content: center;
+}
+
+.Titulo{
+    font-weight: bold;
+    font-size: 30px;
+    max-width: 210px;
+    margin: auto;
+}
+
+.Progreso{
+    font-size: 20px;
+    margin:auto;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Sumar, .Restar, .Reiniciar, .Eliminar{
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.Sumar, .Restar{
+    font-size: 30px;
+}
+
+.Sumar{
+    background-color: rgb(87, 197, 114);
+}
+
+.Restar{
+    background-color: rgb(51, 112, 67);
+}
+
+.Reiniciar{
+    background-color: rgb(135, 205, 223);
+}
+
+.Eliminar{
+    background-color: rgb(122, 159, 184);
+}
+
+.Reiniciar, .Eliminar{
+    font-size: 20px;
+}
+
+.Botones{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Encima{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

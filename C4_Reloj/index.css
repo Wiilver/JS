@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(126, 64, 39);
+    text-align: center;
+    background-image: url(fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.reloj{
+    font-size: 100px;
+    backdrop-filter: blur(15px);
+    padding: 5px;
+}

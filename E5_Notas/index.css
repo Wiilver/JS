@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(235, 235, 235);
+    margin:0px;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    outline: solid black 1px;
+    border:1px black;
+}
+
+input[type="button"]{
+    cursor: pointer;
+}
+
+.Opciones{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    outline: solid black 1px;
+    align-content: center;
+}
+
+.opciones_borrar{
+    position: relative;
+    top:-2px;
+    left:25px
+}
+.Color{
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    position: relative;
+    left:13px;
+    top:-2px;
+    cursor:pointer;
+}
+
+.bote{
+    position: relative;
+    top:4px;
+    left:20px;
+    cursor:pointer;
+}
+
+.vertical{
+    float: right;
+    background-color: rgb(189, 80, 80);
+    width: 275px;
+    outline: solid black 1px;
+    height: 100vh;
+}
+
+.horizontal{
+    background-color: pink;
+    height: 150px;
+}
+
+.contenedor{
+    padding:10px;
+}
+
+.liston{
+    float:left;
+    width: 35px;
+    position: relative;
+    top:-15px;
+    left: -20px;
+    cursor:grab;
+}
+
+.puntos{
+    float: right;
+    width: 30px;
+    position: relative;
+    top:-5px;
+    left: -2px;
+    cursor:pointer;
+}
+
+.Titulo{
+    font-weight: 600;
+    font-size: 20px;
+    margin:0;
+    margin-top: 15px;
+}
+
+.nota_fondo{
+    background-color: #c44141;
+    padding:10px;
+    width: 320px;
+    display: inline-block;
+    margin:10px;
+}
+
+.nota_cuerpo{
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    width: 300px;
+    height: fit-content;
+    overflow-x:scroll;
+}
+
+.tlo_lista{
+    font-size: 17px;
+    font-weight: bold;
+    background-color: pink;
+    padding:10px;
+    width: 65%;
+    height: 40px;
+    margin-bottom: 7px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.Elemento{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.Elemento:hover{
+    color: rgb(94, 11, 11);
+    text-decoration: underline  ;
+}
+
+.crear_nota{
+    background-color: rgb(255, 255, 255);
+    width: 202px;
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    outline: solid gray 3px;
+    margin:20px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.crear_nota_titulo{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#nota_titulo{
+    font-size: 15px;
+}
+
+#nota_aceptar, #nota_cancelar{
+    width: 100px;
+}
+
+#nota_aceptar{
+    background-color: pink;
+}
+
+#nota_cancelar{
+    background-color: rgb(235, 235, 235);
+}
+
+#nota_contenido{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 194px;
+    height: 100px;
+}
+
+#btn_filtro{
+    background-color: rgb(163, 41, 41);
+    width: 60px;
+    height: 60px;
+    float:right;
+    outline:solid black 1px;
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#btn_reiniciar{
+    float: right;
+    background-color: pink;
+    height :26px;
+    margin-left: 0;
+}
+
+#input_buscar{
+    width: 70%;
+    height: 20px;
+}

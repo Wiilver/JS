@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="escrito">
+        <div class="a">
+            <p id="resultado" class="texto"></p>
+        </div>
+    </div>
+    <table class = "fondo">
+        <tbody class = "cuerpo">
+            <tr>
+                <td class = "numero" id = "7" onclick= apreto(this)>7</td>
+                <td class = "numero" id = "8" onclick= apreto(this)>8</td>
+                <td class = "numero" id = "9" onclick= apreto(this)>9</td>
+                <td class = "simbolo" id = "del" onclick= apreto(this)>Del</td>
+            </tr>
+            <tr>
+                <td class = "numero" id = "4" onclick= apreto(this)>4</td>
+                <td class = "numero" id = "5" onclick= apreto(this)>5</td>
+                <td class = "numero" id = "6" onclick= apreto(this)>6</td>
+                <td class = "simbolo" id = "-" onclick= apreto(this)>-</td>
+            </tr>
+            <tr>
+                <td class = "numero" id = "1" onclick= apreto(this)>1</td>
+                <td class = "numero" id = "2" onclick= apreto(this)>2</td>
+                <td class = "numero" id = "3" onclick= apreto(this)>3</td>
+                <td class = "simbolo" id = "+" onclick= apreto(this)>+</td>
+            </tr>
+            <tr>
+                <td class = "numero" id = "0" onclick= apreto(this)>0</td> 
+                <td class = "simbolo" id = "/" onclick= apreto(this)>/</td> 
+                <td class = "simbolo" id = "*" onclick= apreto(this)>*</td> 
+                <td class = "simbolo" id = "=" onclick= apreto(this)>=</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class = "resultado">
+        <p id="cosa" class="resultado_texto"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

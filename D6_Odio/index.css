@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(87, 125, 175);
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(216, 124, 196);
+    color:rgb(85, 17, 68)
+}
+
+.Contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.Imagen{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    outline: solid black 1px;
+}
+
+.Encima{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.Subtitulo{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(137, 237, 250);
+    padding: 10px;
+}

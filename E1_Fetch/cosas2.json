@@ -1,0 +1,21 @@
+[
+    {
+    "nombre" : "Jose",
+    "edad" : 19,
+    "trabaja" : false,
+    "hobbies" : ["cocinar", "comer", "viajar"]
+    },
+
+    {
+        "nombre" : "Alberta",
+        "edad" : 29,
+        "trabaja" : true,
+        "hobbies" : ["beber", "dormir", "soñar"]
+    },
+    {
+        "nombre" : "Mi",
+        "edad" : 22,
+        "trabaja" : true,
+        "hobbies" : ["estudiar", "bailar", "pensar"]  
+    }
+]
